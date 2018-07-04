@@ -2,15 +2,25 @@
     <div>
         <b-jumbotron 
             bg-variant="https://farm6.staticflickr.com/5564/30027314480_81db2b8384_b.jpg" 
-            header="Se familiariser avec l'organisation du cours et formuler les attentes" 
+            header="Activité 3" 
             lead="" 
             text-variant="white">
         </b-jumbotron>
         <b-container class="">
-                    <h4 class="alert-heading">Activité 3</h4>
+                    <h3 class="alert-heading">Appropriation de votre portfolio étudiant UdeM</h3>
                     <hr>
-                    <p> 
-                    </p>
+                    <h5>Consignes</h5>
+                    <p>Nous allons travailler avec l’outil de portfolio ce qui vous permets d’avoir une meilleure visibilité à l’intérieur du groupe du cours. L’objectif est que l’ensemble du groupe puisse facilement se faire une idée des orientations spatio-temporelles et thématiques des différents projets de recherche. Par ce biais vous pouvez par exemple voir s’il y a des camarades qui travaillent sur des questions comparables ou complémentaires aux vôtres, même si elles sont étudiées pour une aire géographique différente. Il reste à vous de choisir jusqu'où vous allez pousser l’utilisation du portfolio. Vous pouvez vous contenter des fonctions de base, mais vous pouvez aussi en faire un carnet ou journal de recherche et de ce fait un forum de partage de vos trouvailles et découvertes avec les autres étudiant-e-s du cours.</p>
+                    <ul>
+                        <li>se créer un compte </li>
+                        <li>préparer cet espace.</li>
+                    </ul>
+                    
+                                <ActivityCard  title="Portfolio" colorType="success" icon="next_week">
+                    <p><a target="_blank" href="https://www.youtube.com/watch?v=VUUCMVW2ZkM&list=PLnIyMlnFyetM480gO57Al1Luq_28FJuB2&index=3">Lien tutoriel du portfolio de Soutien Studium </a>: Vous y trouverez aussi d’autres capsules qui vous permettent de comprendre les différentes fonctions du portfolio.</p>
+                                    
+                                </ActivityCard>
+                    <!--
                     <b-tabs>
                         <b-tab title="Consignes" active>
                             <p>Prenez le temps de parcourir le plan, les modules et les ressources du cours en vue surtout de formuler des questions à poser lors de l’atelier d’information.</p>
@@ -23,7 +33,7 @@
                                 </ActivityCard>
                             </b-card-group>
                         </b-tab>
-                    </b-tabs>
+                    </b-tabs>-->
         </b-container>
         <b-modal id="modal1" size="lg" title="Forum Présentation" centered>
             <!--<iframe src="https://player.vimeo.com/video/179089952?title=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -61,7 +71,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .jumbotron {
-  background: url(https://farm9.staticflickr.com/8267/29693441973_edba460a5c_b.jpg);
+  background: url(https://farm2.staticflickr.com/1744/40757444840_126f6ab628_o.png);
   background-repeat: no-repeat;
   background-size: cover;
 }

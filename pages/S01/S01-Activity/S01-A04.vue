@@ -2,15 +2,24 @@
     <div>
         <b-jumbotron 
             bg-variant="https://farm6.staticflickr.com/5564/30027314480_81db2b8384_b.jpg" 
-            header="Prendre connaissance des principes de fiche de lecture" 
+            header="Activité 4" 
             lead="" 
             text-variant="white">
         </b-jumbotron>
         <b-container class="">
-                    <h4 class="alert-heading">Activité 4</h4>
+                    <h3 class="alert-heading">Prendre connaissance des principes de fiche de lecture</h3>
                     <hr>
-                    <p> 
-                    </p>
+                    <h5>Consignes</h5>
+                    <p>Je vous propose un canevas de fiche de lecture qui vous permettra d’organiser les informations que vous tirez des littératures de recherche que je vous propose de lire tout au long du cours. Prenez connaissance de cette fiche. Vous êtes évidemment invité d’adapter ce canevas à vos besoins.</p>
+                    <b-alert show>N.B. Ce modèle de fiche de lecture se distingue du modèle de fiche de source (cf. <b-link href="S01-A07">activité 7</b-link> de cette semaine).</b-alert>
+                    
+                    <h5>Ressources associées</h5>
+                    
+                    <ActivityCard  title="document" colorType="success" icon="attach_file">
+                        <b-button>Modèle de fiche de lecture</b-button>
+                     </ActivityCard>
+
+                    <!--
                     <b-tabs>
                         <b-tab title="Consignes" active>
                             <p>Je vous propose un canevas de fiche de lecture qui vous permettra d’organiser les informations qui vous tirez des littératures de recherche que je vous propose tout au long du cours. Prenez connaissance de cette fiche. Vous êtes évidemment d’adapter ce canevas à vos propres besoins.</p>
@@ -23,7 +32,7 @@
                                 </ActivityCard>
                             </b-card-group>
                         </b-tab>
-                    </b-tabs>
+                    </b-tabs>-->
         </b-container>
         <b-modal id="modal1" size="lg" title="Forum Présentation" centered>
             <!--<iframe src="https://player.vimeo.com/video/179089952?title=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -61,7 +70,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .jumbotron {
-  background: url(https://farm9.staticflickr.com/8267/29693441973_edba460a5c_b.jpg);
+  background: url(https://farm2.staticflickr.com/1744/40757444840_126f6ab628_o.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
